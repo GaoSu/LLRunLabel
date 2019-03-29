@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E413F1D1224E3E7F004F8645 /* LLRollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413F1D0224E3E7F004F8645 /* LLRollingView.swift */; };
 		E446CC8F219376BF00607796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E446CC8E219376BF00607796 /* AppDelegate.swift */; };
 		E446CC91219376BF00607796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E446CC90219376BF00607796 /* ViewController.swift */; };
 		E446CC94219376BF00607796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E446CC92219376BF00607796 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E413F1D0224E3E7F004F8645 /* LLRollingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLRollingView.swift; sourceTree = "<group>"; };
 		E446CC8B219376BF00607796 /* runlabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runlabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E446CC8E219376BF00607796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E446CC90219376BF00607796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				E446CC8E219376BF00607796 /* AppDelegate.swift */,
 				E446CC90219376BF00607796 /* ViewController.swift */,
+				E413F1D0224E3E7F004F8645 /* LLRollingView.swift */,
 				E446CC92219376BF00607796 /* Main.storyboard */,
 				E446CC95219376BF00607796 /* Assets.xcassets */,
 				E446CC97219376BF00607796 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				E446CC91219376BF00607796 /* ViewController.swift in Sources */,
 				E446CC8F219376BF00607796 /* AppDelegate.swift in Sources */,
+				E413F1D1224E3E7F004F8645 /* LLRollingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EXQ33C53TN;
 				INFOPLIST_FILE = runlabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "radacat-inc.runlabel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EXQ33C53TN;
 				INFOPLIST_FILE = runlabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "radacat-inc.runlabel";
 				PRODUCT_NAME = "$(TARGET_NAME)";

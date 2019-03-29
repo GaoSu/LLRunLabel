@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let rect = CGRect(x: 50, y:50 , width: 100, height: 45)
+        let runView = LLRollingView.init(frame:rect , title: "认真对待每一天，心平气和才能做好事情", textColor: UIColor.blue)
+        view.addSubview(runView)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
